@@ -25,38 +25,18 @@ source-repository head
   type: git
   location: https://github.com/vzaccaria/hledger-mutuo
 
-library
-  exposed-modules:
-      Lib
-  other-modules:
-      Paths_hledger_mutuo
-  hs-source-dirs:
-      src
-  build-depends:
-      base >=4.7 && <5
-  default-language: Haskell2010
-
 executable hledger-mutuo-exe
   main-is: Main.hs
   other-modules:
       Paths_hledger_mutuo
+      , Hledger.Mutuo
   hs-source-dirs:
-      app
+      src
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , hledger-mutuo
+    , hledger-lib
+    , cmdargs
+    , text
   default-language: Haskell2010
 
-test-suite hledger-mutuo-test
-  type: exitcode-stdio-1.0
-  main-is: Spec.hs
-  other-modules:
-      Paths_hledger_mutuo
-  hs-source-dirs:
-      test
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
-  build-depends:
-      base >=4.7 && <5
-    , hledger-mutuo
-  default-language: Haskell2010
