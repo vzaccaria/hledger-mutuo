@@ -28,7 +28,7 @@ opts =
   , source = "" &= name "s" &= typ "ACCOUNT"
   , target = "" &= name "t" &= typ "ACCOUNT"
   , account = "" &= typ "ACCOUNT" &= args
-  , annualRate = 0.00141 &= typ "RATE" &= help "Annual rate, 0.0014 = 1.4%"
+  , annualRate = 0.0141 &= typ "RATE" &= help "Annual rate, 0.014 = 1.4%"
   , fixExpense = 4 &= typ "AMOUNT" &= help "Fixed expenses for each month"
   , mortgageMonthLength =
       239 &= typ "INTEGER" &= help "Mortgage length in months"
@@ -36,9 +36,5 @@ opts =
   summary "hledger-mutuo v1"
 
 main = do
-  let ledgerInputOptions = definputopts {ignore_assertions_ = True}
   v <- cmdArgs opts
-  j <- readJournalFiles ledgerInputOptions [file v] >>= either fail return
-  let jnl = filterJournalTransactions (Acct (toRegex' (T.pack $ account v))) j
-      ts = sortOn tdate (jtxns jnl)
-  print [ts !! 0]
+  runFrenchCompute v
