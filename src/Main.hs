@@ -28,12 +28,13 @@ opts =
   , source = "" &= name "s" &= typ "ACCOUNT"
   , target = "" &= name "t" &= typ "ACCOUNT"
   , account = "" &= typ "ACCOUNT" &= args
-  , annualRate = 0.0141 &= typ "RATE" &= help "Annual rate, 0.014 = 1.4%"
+  , annualRate = 0.0141 &= typ "RATE" &= help "Annual rate 0.014 = 1.4%"
   , fixExpense = 4 &= typ "AMOUNT" &= help "Fixed expenses for each month"
   , mortgageMonthLength =
       239 &= typ "INTEGER" &= help "Mortgage length in months"
   } &=
-  summary "hledger-mutuo v1"
+  summary "hledger-mutuo v1.0, (c) Vittorio Zaccaria" &=
+  program "hledger-mutuo"
 
 main = do
   v <- cmdArgs opts

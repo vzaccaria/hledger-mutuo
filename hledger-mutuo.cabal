@@ -42,7 +42,7 @@ library
   default-language: Haskell2010
 
 
-executable hledger-mutuo-exe
+executable hledger-mutuo
   main-is: Main.hs
   other-modules:
       Paths_hledger_mutuo

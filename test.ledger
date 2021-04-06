@@ -1,0 +1,14 @@
+
+2019-04-17 Mortgage start
+    assets:banca          EUR1000
+    liabilities:mutuo    
+
+
+2020-04-01 Mortgage payment 
+    assets:banca            EUR-5.06
+    liabilities:mutuo       
+
+2020-05-04 Mortgage payment 
+    assets:banca:popso      EUR-5.06
+    liabilities:mutuo
+
