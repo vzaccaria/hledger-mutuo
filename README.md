@@ -19,11 +19,11 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
+<!--[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url] [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]-->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -151,7 +151,7 @@ Project Link:
 - You?
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
+<!--<!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]:
@@ -171,4 +171,4 @@ Project Link:
 [license-url]: https://github.com/vzaccaria/repo/blob/master/LICENSE.txt
 [linkedin-shield]:
   https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/vzaccaria
+[linkedin-url]: https://linkedin.com/in/vzaccaria-->
