@@ -115,7 +115,7 @@ to produce the following transactions:
     expenses:mutuo            EUR1.66
 ```
 
-Note that with the french scheme you'll pay interest upfront.
+Note that with the french scheme you'll pay most of the interest upfront.
 
 ## Contributing
 
