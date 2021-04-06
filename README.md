@@ -32,7 +32,7 @@
   <h3 align="center">hledger-mutuo</h3>
 
   <p align="center">
-    Compute french-style mortgage payment rates
+    Compute french-style mortgage payment interest rates
     <br />
     <a href="https://github.com/vzaccaria/hledger-mutuo"><strong>Explore the docs »</strong></a>
     <br />
