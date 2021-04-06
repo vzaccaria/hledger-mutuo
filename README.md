@@ -7,7 +7,7 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** vzaccaria, hledger-mutuo, twitter_handle, email, hledger-mutuo, Compute french-style mortgage payement rates
+*** vzaccaria, hledger-mutuo, twitter_handle, email, hledger-mutuo, Compute french-style mortgage payment rates
 -->
 
 <!-- PROJECT SHIELDS -->
@@ -32,7 +32,7 @@
   <h3 align="center">hledger-mutuo</h3>
 
   <p align="center">
-    Compute french-style mortgage payement rates
+    Compute french-style mortgage payment rates
     <br />
     <a href="https://github.com/vzaccaria/hledger-mutuo"><strong>Explore the docs »</strong></a>
     <br />
